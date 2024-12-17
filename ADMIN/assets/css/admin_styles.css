@@ -1,0 +1,34 @@
+.navbar-vertical {
+    width: 200px;
+    /* Ancho del navbar lateral */
+    height: 100vh;
+    /* Alto del navbar lateral */
+    position: fixed;
+    /* Fija el navbar lateral a la izquierda */
+    top: 0;
+    left: 0;
+    background-color: #87CEEB;
+    /* Fondo azul claro */
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.navbar-vertical.navbar-brand {
+    margin-bottom: 20px;
+}
+
+.navbar-vertical.navbar-nav {
+    flex-direction: column;
+}
+
+.navbar-vertical.nav-item {
+    margin-bottom: 10px;
+}
+
+.navbar-vertical.nav-link {
+    color: #333;
+}
+
+.navbar-vertical.nav-link:hover {
+    color: #337ab7;
+}
